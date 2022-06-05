@@ -6,5 +6,10 @@ pipeline{
                 sh 'free -g'
             }
         }
+        stage('2-second stage'){
+            steps{
+                sh 'lscpu'
+            }
+        }
     }
 }
