@@ -12,7 +12,7 @@ pipeline{
             }
         }
         stage{'3-third stage}{
-             steps}
-        sh ' dh -u'
+              steps{
+                 sh ' dh -u'
     }
 }
