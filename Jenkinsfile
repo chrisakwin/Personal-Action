@@ -11,7 +11,7 @@ pipeline{
                 sh 'lscpu'
             }
         }
-        stage('2-second stage'){
+        stage('3-second stage'){
             steps{
                 sh 'du -h'
          
