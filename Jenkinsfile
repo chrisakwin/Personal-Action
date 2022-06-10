@@ -14,5 +14,7 @@ pipeline{
         stage('3-third stage'){
             steps{
                 sh 'du -h'
+          }
+        }
     }
 }
