@@ -11,5 +11,8 @@ pipeline{
                 sh 'lscpu'
             }
         }
+        stage{'3-third stage}{
+             steps}
+        sh ' dh -u'
     }
 }
